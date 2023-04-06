@@ -1,0 +1,7 @@
+/**
+ *
+ * @author LENOVO
+ */
+interface ResultPrinterFactory {
+    
+}
