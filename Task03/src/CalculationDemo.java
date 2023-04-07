@@ -1,7 +1,19 @@
 import java.io.*;
 
+
+/**
+ * The class Calculation demo
+ */
 public class CalculationDemo {
+
+    /**
+     *
+     * Main
+     *
+     * @param args  the args.
+     */
     public static void main(String[] args) {
+
         // створення об'єкту Calculation
         Calculation calculation = new Calculation(100, 10, 50, 50, 90, new int[]{60, 25, 5, 3});
 

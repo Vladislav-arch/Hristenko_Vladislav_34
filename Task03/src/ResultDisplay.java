@@ -1,7 +1,3 @@
-/**
- *
- * @author LENOVO
- */
 class ResultDisplay {
     public class TableResultDisplayFactory implements ResultDisplayFactory {
     @Override

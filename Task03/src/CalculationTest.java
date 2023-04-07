@@ -1,7 +1,19 @@
 import java.io.*;
 
+
+/**
+ * The class Calculation test
+ */
 public class CalculationTest {
+
+    /**
+     *
+     * Main
+     *
+     * @param args  the args.
+     */
     public static void main(String[] args) {
+
         // створення об'єкту Calculation
         Calculation calculation = new Calculation(100, 10, 50, 50, 90, new int[]{60, 25, 5, 3});
 
@@ -36,8 +48,5 @@ public class CalculationTest {
         } catch (IOException | ClassNotFoundException e) {
             System.err.println("Помилка: " + e.getMessage());
         }
-        CellSurvivalProblemSolver solver = new CellSurvivalProblemSolver(100, 10, 50, 50, 90, 4);
-        TextResultsPrinter printer = new TextResultsPrinter(solver);
-        printer.PrintInfo();
     }
 }

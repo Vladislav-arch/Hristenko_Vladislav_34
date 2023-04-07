@@ -1,7 +1,3 @@
-/**
- *
- * @author LENOVO
- */
 class DivisionResult {
 
     Object[] getTotalResistance() {
@@ -19,5 +15,5 @@ class DivisionResult {
     Object[] getResistance3() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-    
+
 }
